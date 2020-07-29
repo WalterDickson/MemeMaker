@@ -15,6 +15,10 @@
 		FD5844F224D1A8420015BAE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD5844F024D1A8420015BAE4 /* LaunchScreen.storyboard */; };
 		FD5844FD24D1A8430015BAE4 /* Meme_Maker_2_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5844FC24D1A8430015BAE4 /* Meme_Maker_2_0Tests.swift */; };
 		FD58450824D1A8430015BAE4 /* Meme_Maker_2_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD58450724D1A8430015BAE4 /* Meme_Maker_2_0UITests.swift */; };
+		FD58451624D1A9EA0015BAE4 /* CaptionChoices.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD58451524D1A9EA0015BAE4 /* CaptionChoices.swift */; };
+		FD9B3A9F24D1B3E10098E81D /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9B3A9A24D1B3E00098E81D /* Style.swift */; };
+		FD9B3AA224D1B3E10098E81D /* Style+iPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9B3A9D24D1B3E00098E81D /* Style+iPhone.swift */; };
+		FD9B3AA324D1B3E10098E81D /* Style+iPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9B3A9E24D1B3E00098E81D /* Style+iPad.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		FD58450324D1A8430015BAE4 /* Meme Maker 2.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Meme Maker 2.0UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD58450724D1A8430015BAE4 /* Meme_Maker_2_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meme_Maker_2_0UITests.swift; sourceTree = "<group>"; };
 		FD58450924D1A8430015BAE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD58451524D1A9EA0015BAE4 /* CaptionChoices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptionChoices.swift; sourceTree = "<group>"; };
+		FD9B3A9A24D1B3E00098E81D /* Style.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
+		FD9B3A9D24D1B3E00098E81D /* Style+iPhone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Style+iPhone.swift"; sourceTree = "<group>"; };
+		FD9B3A9E24D1B3E00098E81D /* Style+iPad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Style+iPad.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +107,11 @@
 		FD5844E424D1A83B0015BAE4 /* Meme Maker 2.0 */ = {
 			isa = PBXGroup;
 			children = (
+				FD9B3A9824D1B3B40098E81D /* Support Files */,
 				FD5844E524D1A83B0015BAE4 /* AppDelegate.swift */,
 				FD5844E724D1A83B0015BAE4 /* SceneDelegate.swift */,
 				FD5844E924D1A83B0015BAE4 /* ViewController.swift */,
+				FD58451524D1A9EA0015BAE4 /* CaptionChoices.swift */,
 				FD5844EB24D1A83B0015BAE4 /* Main.storyboard */,
 				FD5844EE24D1A8420015BAE4 /* Assets.xcassets */,
 				FD5844F024D1A8420015BAE4 /* LaunchScreen.storyboard */,
@@ -126,6 +136,24 @@
 				FD58450924D1A8430015BAE4 /* Info.plist */,
 			);
 			path = "Meme Maker 2.0UITests";
+			sourceTree = "<group>";
+		};
+		FD9B3A9824D1B3B40098E81D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD9B3A9924D1B3C50098E81D /* Styling UI */,
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		FD9B3A9924D1B3C50098E81D /* Styling UI */ = {
+			isa = PBXGroup;
+			children = (
+				FD9B3A9A24D1B3E00098E81D /* Style.swift */,
+				FD9B3A9E24D1B3E00098E81D /* Style+iPad.swift */,
+				FD9B3A9D24D1B3E00098E81D /* Style+iPhone.swift */,
+			);
+			path = "Styling UI";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,8 +288,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD5844EA24D1A83B0015BAE4 /* ViewController.swift in Sources */,
+				FD9B3AA324D1B3E10098E81D /* Style+iPad.swift in Sources */,
 				FD5844E624D1A83B0015BAE4 /* AppDelegate.swift in Sources */,
+				FD9B3AA224D1B3E10098E81D /* Style+iPhone.swift in Sources */,
 				FD5844E824D1A83B0015BAE4 /* SceneDelegate.swift in Sources */,
+				FD58451624D1A9EA0015BAE4 /* CaptionChoices.swift in Sources */,
+				FD9B3A9F24D1B3E10098E81D /* Style.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +466,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HR45AY479F;
 				INFOPLIST_FILE = "Meme Maker 2.0/Info.plist";
@@ -443,6 +476,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "waltdickson.Meme-Maker-2-0";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -452,6 +486,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HR45AY479F;
 				INFOPLIST_FILE = "Meme Maker 2.0/Info.plist";
@@ -461,6 +496,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "waltdickson.Meme-Maker-2-0";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
